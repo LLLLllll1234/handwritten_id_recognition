@@ -1,0 +1,53 @@
+# 虚拟环境 - 确保彻底排除
+venv/
+venv/**/*
+env/
+.venv/
+.env/
+virtualenv/
+ENV/
+**/*venv*/
+**/*.dylib
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 分发和打包
+.eggs/
+*.egg-info/
+dist/
+build/
+eggs/
+
+# 日志文件
+*.log
+
+# 训练生成的数据
+data/
+*.pth
+*.pt
+
+# 大型二进制文件
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 其他
+.idea/
+.vscode/
+*.swp
+*.swo 
